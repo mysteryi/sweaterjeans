@@ -1,15 +1,17 @@
 @import url(http://fonts.googleapis.com/css?family=Antic+Slab|Laila);
 
-$navbar-default-bg: 	#800000;
-$font-family: 'Antic Slab', 'Helvetia-Neue', serif;
-$navbar-default-link-color: white;
-$btn-default-bg: 			#800000;
-$btn-default-border: 	#800000;
-$btn-default-color:		white;
+$navbar-default-bg: 			#800000;
+$font-family: 						'Antic Slab','Helvetia-Neue', serif;
+$navbar-default-link-color:		white;
+$btn-default-bg: 					#800000;
+$btn-default-border: 			#800000;
+$btn-default-color:				white;
 
-$navbar-default-border: #800000;
-$jumbotron-color: 		gray-lighter;
-$jumbotron-bg: 				white;
+$btn-success:			 				#800000;
+
+$navbar-default-border: 	#800000;
+$jumbotron-color: 				gray-lighter;
+$jumbotron-bg: 						white;
 
 @import 'bootstrap';
 
