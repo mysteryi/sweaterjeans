@@ -4,7 +4,7 @@
   <thead>
     <tr>
       <th>Description</th>
-      <th colspan="3"></th>
+      <th colspan="10">Action</th>
     </tr>
   </thead>
 
@@ -14,7 +14,7 @@
         <td><%= pin.description %></td>
         <td><%= link_to 'Show', pin %></td>
         <td><%= link_to 'Edit', edit_pin_path(pin) %></td>
-        <td><%= link_to 'Destroy', pin, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Destroy', pin, method: :delete, data: { confirm: 'Breaking up is hard to do. Are you sure you want to delete me?' } %></td>
       </tr>
     <% end %>
   </tbody>
