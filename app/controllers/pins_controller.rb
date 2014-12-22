@@ -14,6 +14,10 @@ class PinsController < ApplicationController
     @pin = current_user.pins.build
   end
 
+  def pin_params
+    params.require(:pin).permit(:description, :image)
+  end
+
   def edit
   end
 
