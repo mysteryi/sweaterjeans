@@ -2,7 +2,6 @@ class PinsController < ApplicationController
   before_action :set_pin, only: [:show, :edit, :update, :destroy]
   before_action :correct_user, only: [:edit, :update, :destroy]
   before_action :authenticate_user!, except: [:index, :show]
-  validates_attachment_content_type :avatar, :content_type => %w(image/jpeg image/jpg image/png)
 
   def index
     @pins = Pin.all
